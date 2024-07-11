@@ -11,6 +11,7 @@ augroup END
 " for downward file search using gf or :find
 " Very useful for navigating through a project
 set path+=**
+nnoremap ge :find *
 
 " Grep
 " Use Ag (the_silver_searcher) as grepprg
