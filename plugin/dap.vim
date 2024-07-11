@@ -15,5 +15,5 @@ nnoremap \E :lua require'dap'.repl.open()<CR>
 
 nnoremap <F2> :lua require'dap'.continue()<CR>
 nnoremap <F3> :lua require'dap'.step_over()<CR>
-nnoremap <F2> :lua require'dap'.step_into()<CR>
-nnoremap <F2> :lua require'dap'.step_out()<CR>
+nnoremap <F4> :lua require'dap'.step_into()<CR>
+nnoremap <F5> :lua require'dap'.step_out()<CR>
