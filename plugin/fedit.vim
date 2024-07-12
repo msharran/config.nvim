@@ -17,11 +17,12 @@ nnoremap ge :find *
 " Use Ag (the_silver_searcher) as grepprg
 set grepprg=ag\ --vimgrep\ --hidden
 " Search word
-nnoremap <Leader>w :grep -w "<C-R><C-W>"<CR>
+nnoremap gw :grep -w "<C-R><C-W>"<CR>
 " Search WORD 
-nnoremap <Leader>W :grep -w "<C-R><C-A>"<CR>
+nnoremap gW :grep -w "<C-R><C-A>"<CR>
 " Pre type :grep command
-nnoremap <Leader>s :grep ""<Left>
+nnoremap gs :grep ""<Left>
+
 " Autocommand to open quickfix window automatically
 " when quickfix list is populated.
 augroup quickfix
